@@ -203,3 +203,59 @@
                 <input type="radio" name="gender" value="female" /> Женский
               </label>
             </fieldset>
+            <fieldset>
+              <legend>Любимый язык программирования</legend>
+              <select name="languages" multiple size="6" style="border-style: dotted; border-color: red;">
+                <option value="pascal">Pascal</option>
+                <option value="c">C</option>
+                <option value="cpp">C++</option>
+                <option value="javascript">JavaScript</option>
+                <option value="php">PHP</option>
+                <option value="python">Python</option>
+                <option value="java">Java</option>
+                <option value="haskel">Haskel</option>
+                <option value="clojure">Clojure</option>
+                <option value="prolog">Prolog</option>
+                <option value="scala">Scala</option>
+              </select>
+              <p>
+                <small class="lead text-muted"
+                  >Для множественного выбора используйте Ctrl+клик (Cmd+клик на
+                  Mac)</small
+                >
+              </p>
+            </fieldset>
+
+            <fieldset>
+              <legend>Биография</legend>
+              <textarea
+              style="border-color: red; border-style: dotted;"
+                name="bio"
+                rows="5"
+                cols="50"
+                placeholder="Расскажите о себе..."
+              ></textarea>
+            </fieldset>
+
+            <label>
+              <input type="checkbox" name="agreement" required/> С контрактом
+              ознакомлен(а)
+            </label>
+
+            <br /><br />
+            <button type="submit" class="lead text" style="border-color: red; border-style: dotted;">Сохранить</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12 col-md-8 mx-auto">
+          <h2 style="font-size: 100px; color: rgb(201, 172, 134)">Спасибо за просмотр!</h2>
+        </div>
+      </div>
+    </div>
+  </footer>
+</html>
